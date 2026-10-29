@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-25T03:05:23",
-  "description": "Personal build of HushFacebook 0.17.0 (95 patches) for Facebook 584.0.0.51.56 (com.facebook.katana, arm64-v8a bundle). Based on SysAdminDoc/HushFacebook (GPL-3.0), plus: the Following / most-recent feed is the home feed by default, and saving photos from a post's menu (Download any photo) is enabled by default. Needs Morphe Manager 2.0.0 or newer. The .mpp is a patch bundle, not a Facebook APK.",
-  "download_url": "https://github.com/DangTruong96/truong-facebook-patches/releases/download/gd3-2026.10.25/patches-0.17.0.mpp",
+  "created_at": "2026-10-29T08:19:52Z",
+  "description": "Facebook 584 — 96 patches with Vietnamese UI, Following feed by default, save photos by default + hide tab bar on the Reels tab (on by default); quiet preset.",
+  "download_url": "https://github.com/DangTruong96/truong-facebook-patches/releases/download/gd4-2026.10.29/patches-0.17.0.mpp",
   "signature_download_url": "",
   "version": "0.17.0"
 }
