@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-29 — Reels tab bar: space back + returns on a touch (bundle 0.17.2)
+- Fix: hiding the tab bar on the Reels/Video tab now gives the bar's space back. Facebook pins the bar block's height in pixels — onto the bar's container and the frame above it — so a hidden bar left a blank strip as tall as the bar at the bottom of the screen and reels stopped above it. Those pinned heights are collapsed while the bar is hidden and restored when it shows, including heights Facebook pins again in between.
+- New: a tap or a swipe on the Reels surface brings the tab bar back for three seconds, then it hides itself again. Before, nothing on the surface could bring it back short of leaving the tab. "Always keep the tab bar" still wins.
+- All 96 patches otherwise unchanged.
+
 ## 2026-10-29 — Reels tab bar fix (bundle 0.17.1)
 - Fix: the hidden tab bar on the Reels/Video tab is now kept hidden even when a surface attaching after the tab pick settles the bar back to showing (the pick's answer is re-applied at the tab bar container's own layout). Still on by default; "Always keep the tab bar" still wins.
 - The setting is now labelled in Vietnamese ("Ẩn thanh tab khi ở trang Reel"), with its description translated too.
