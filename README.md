@@ -7,3 +7,7 @@ Thêm vào Morphe Manager: https://morphe.software/add-source?github=DangTruong9
 Nguồn gốc: HushFacebook by SysAdminDoc (GPL-3.0) + feed Following/Mới nhất bật mặc định + lưu ảnh bật mặc định + ẩn thanh tab khi ở tab Reel (mặc định bật; tắt trong Cài đặt Hushfacebook → Appearance). Chỉ dùng cá nhân.
 
 Lưu ý: APK vá bằng Morphe Manager được ký bằng keystore trong Manager của bạn; APK vá sẵn do chủ repo gửi riêng được ký bằng keystore khác — với mỗi app, hãy chọn một đường và dùng nhất quán để các bản cập nhật cài đè được lên nhau.
+
+## Changelog
+
+- **0.17.3** (30/10/2026): thêm patch thử nghiệm "Đẩy video lên trên cùng khi mở bình luận" — khi mở bình luận, video được đẩy sát lên trên thay vì căn giữa, không còn dải đen phía trên video. Công tắc ở Cài đặt Hushfacebook → Comments, mặc định Bật. Tổng 97 bản vá.
