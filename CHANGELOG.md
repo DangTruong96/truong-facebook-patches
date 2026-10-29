@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-29 — Reels tab bar fix (bundle 0.17.1)
+- Fix: the hidden tab bar on the Reels/Video tab is now kept hidden even when a surface attaching after the tab pick settles the bar back to showing (the pick's answer is re-applied at the tab bar container's own layout). Still on by default; "Always keep the tab bar" still wins.
+- The setting is now labelled in Vietnamese ("Ẩn thanh tab khi ở trang Reel"), with its description translated too.
+- All 96 patches otherwise unchanged.
+
 ## 2026-10-29 — Hide the tab bar on the Reels tab (bundle 0.17.0)
 - New patch (96 total): the bottom tab bar hides while the Reels/Video tab is open and comes back on every other tab. On by default; "Always keep the tab bar" still wins if that is on.
 - All 95 patches from the previous build are otherwise unchanged.
