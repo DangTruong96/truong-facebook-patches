@@ -10,4 +10,5 @@ Lưu ý: APK vá bằng Morphe Manager được ký bằng keystore trong Manage
 
 ## Changelog
 
+- **0.17.4** (30/10/2026): thêm patch thử nghiệm "Chia đôi màn hình khi mở bình luận ở Reel" — tấm bình luận dừng ở nửa màn hình thay vì che ~80%, nửa trên vẫn hiển thị video, vẫn kéo tấm lên/xuống được. Công tắc ở Cài đặt Hushfacebook → Comments, mặc định Bật. Thêm công tắc "Nền thanh tab trong suốt hơn" — nền thanh tab khi đang hiện chỉ còn ~50% độ mờ đục so với gốc, icon giữ nguyên; Cài đặt Hushfacebook → Appearance, mặc định Bật. Tổng 98 bản vá.
 - **0.17.3** (30/10/2026): thêm patch thử nghiệm "Đẩy video lên trên cùng khi mở bình luận" — khi mở bình luận, video được đẩy sát lên trên thay vì căn giữa, không còn dải đen phía trên video. Công tắc ở Cài đặt Hushfacebook → Comments, mặc định Bật. Tổng 97 bản vá.
