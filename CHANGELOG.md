@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-31 — Nút chuyển video PiP: cho ngủ, mặc định tắt — PiP về hàng nút truyền thống (bundle 0.17.24)
+
+- Theo lệnh của chủ máy ("Quay về pip truyền thống 2 nút tua — vì ko hoạt động đúng"): công tắc "Nút chuyển video trong cửa sổ PiP" nay **mặc định TẮT**. Khi tắt, danh sách hành động của Facebook đi qua nguyên vẹn — PiP giữ hàng nút truyền thống [tua −10s · phát/dừng · tua +10s], không bắt giữ pager, không đăng ký bộ nhận.
+- Lý do đứng xuống: bản 0.17.22 đã lật được trang phía dưới và xác minh được bằng trạng thái của pager (kế 5/5), nhưng khâu bàn giao phát lại không chạy trong cửa sổ PiP — trang mới màn đen, player của video cũ vẫn phát tiếng. Đợt sửa bàn giao (GĐ28) bị huỷ giữa chừng và được rút toàn bộ khỏi bản này; mã của tính năng PiP giữ nguyên trong bundle ở trạng thái ngủ, **không xoá sổ** — bật lại công tắc trong Cài đặt Hushfacebook > Phát lại là thử tiếp được đúng như bản 0.17.22.
+- Nhãn công tắc thêm "(thử nghiệm)" — cả trong Cài đặt lẫn trang Chẩn đoán hook — và mô tả dưới công tắc nói rõ vì sao mặc định tắt.
+- Giữ nguyên mọi thứ khác của 0.17.23: bàn phím bình luận chốt một lần đẩy cho mỗi lần mở, chia đôi bình luận, cơ chế phục vụ trang Reel. Vá thử trên Facebook 584.0.0.51.56: 101 patch áp dụng, 0 lỗi; APK ký cert dự án.
+
 ## 2026-10-31 — Bàn phím bình luận: chốt cứng một lần đẩy cho mỗi lần mở (bundle 0.17.23)
 
 - Sửa tận gốc lỗi bàn phím vẫn nháy ở PHIÊN DÀI: bản 0.17.18 (chốt "số đo ổn định") sạch ở phiên ngắn (mở 8 = đẩy 8, 677px, đã xác nhận trên máy), nhưng ảnh chẩn đoán phiên dài ngày 31/10 ghi inset deliveries x154, pushed x111, chiều cao gần nhất kẹt ở số giả 202px và khung nháy liên tục khi bàn phím mở.
